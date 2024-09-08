@@ -1,0 +1,56 @@
+---
+import {basics} from "../cv.json";
+
+---
+
+<footer class="no-print">
+    Press <kbd>Ctrl</kbd> + <kbd>K</kbd> for command palette
+</footer>
+<ninja-keys></ninja-keys>
+<script>
+    import "ninja-keys";
+
+    const ninja = document.querySelector("ninja-keys");
+
+    if (ninja != null) {
+        ninja.data = [
+            {
+                id: 'Print',
+                title: 'Print',
+                hotkey: 'ctrl+P',
+                icon: 'apps',
+                section: 'Actions',
+                handler: () => { 
+                    window.print()
+                },
+            },
+        ]
+    }
+
+</script>
+
+<style>
+    @media print {
+		ninja-keys {
+			display: none !important;
+		}
+	}
+
+    footer {
+        background: #fdfdfd;
+        border-top: 1px solid #eee;
+        position: fixed;
+        bottom: 0px;
+        width: 100%;
+        padding: 8px 16px;
+        text-align: center;
+        font-size: 0.85rem;
+
+        view-timeline-name: --revealing;
+        view-timeline-axis: block;
+
+        animation: linear 0.3s fadeIn;
+        animation-timeline: --revealing;
+        animation-range: entry 100% cover 10%;
+    }
+</style>
