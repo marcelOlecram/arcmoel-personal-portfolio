@@ -1,7 +1,7 @@
 ---
 import {basics} from '../../cv.json';
 import Section from '@/components/Section.astro';
-
+import { Icon } from 'astro-icon/components';
 const {name, label, image, location, profiles, phone, email} = basics;
 const {city, region} = location;
 ---
@@ -25,21 +25,21 @@ const {city, region} = location;
                 {
                     email && (
                         <a href={`mailto:${email}`} title="Send mail to:" target="_blank" rel="noopener noreferrer">
-                            {email}
+                            <Icon name="email-icon" />
                         </a>
                     )
                 }
                 {
                     phone && (
                         <a href={`tel:${phone}`} title="Call to:" target="_blank" rel="noopener noreferrer">
-                            {phone}
+                            <Icon name="phone-icon" />
                         </a>
                     )
                 }
                 {
                     profiles.map(profile => (
                         <a href={profile.url} title={profile.username} target="_blank" rel="noopener noreferrer">
-                            {profile.network}
+                            <Icon name=`${profile.network}-icon` />
                         </a>
                     ))
                 }
