@@ -14,6 +14,7 @@ import {basics} from '../cv.json';
 
 <Layout title=`${basics.name}'s Portfolio`>
 	<main>
+
 		<Hero	/>
 		<About />
 		<Experience />
@@ -21,13 +22,17 @@ import {basics} from '../cv.json';
 		<Projects />
 		<Skills />
 	</main>
-	<KeyboardManager />
+	<!-- <KeyboardManager />-->
 </Layout>
 
 <style>
 	main {
-		padding: 4rem;
+		padding: 1.5rem;
 		margin: auto;
 		width: 100%;
+	}
+
+	@media print {
+		
 	}
 </style>

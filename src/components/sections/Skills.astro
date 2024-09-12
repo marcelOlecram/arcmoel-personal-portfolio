@@ -97,4 +97,37 @@ import Section from "@/components/Section.astro";
         font-weight: 500;
         padding: 0.2rem 0.6rem;
     }
+
+    @media print {
+
+        ul {
+            display: inline;
+            margin-bottom: 1em;
+        }
+
+        article {
+            border: 0;
+            padding: 0;
+        }
+
+        article header {
+            display: grid;
+            grid-template-columns: auto 1fr;
+            column-gap: 1rem;
+            align-items: center;
+            justify-content: center;
+        }
+
+        article h3 {
+            margin: 0;
+        }
+
+        article a {
+            padding-top: 0.3rem;
+        }
+
+        article p {
+            grid-column: span 2;
+        }
+    }
 </style>
