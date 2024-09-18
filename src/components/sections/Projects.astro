@@ -1,12 +1,21 @@
 ---
-import {projects} from "../../cv.json";
 import Section from "@/components/Section.astro";
+
+import { getCollection, getEntry } from 'astro:content';
+const cv = await getEntry('cv', `${Astro.currentLocale}/cv`);
+const projects = cv?.data.projects;
+
+interface Props {
+	title: string;
+}
+
+const { title } = Astro.props;
 ---
 
-<Section title="Projects">
+<Section title={title}>
     <ul>
         {
-            projects.map(({name,startDate,endDate,description,highlights,url}) => (
+            projects?.map(({name,startDate,endDate,description,highlights,url}) => (
                 <li>
                     <article>
                         <header>

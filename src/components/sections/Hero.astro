@@ -1,43 +1,45 @@
 ---
-import {basics} from '../../cv.json';
 import Section from '@/components/Section.astro';
 import { Icon } from 'astro-icon/components';
-const {name, label, image, location, profiles, phone, email} = basics;
-const {city, region} = location;
+
+import { getCollection, getEntry } from 'astro:content';
+const cv = await getEntry('cv', `${Astro.currentLocale}/cv`);
+//const cv = await getCollection('cv', Astro.currentLocale);
+const basics = cv?.data.basics;
 ---
 
 <Section>
     <div class="container">
         <div class="info">
-            <h1>{name}</h1>
-            <h2>{label}</h2>
+            <h1>{basics?.name}</h1>
+            <h2>{basics?.label}</h2>
             <span>
                 <!-- TODO Map icon -->
-                 {city}, {region}
+                {basics?.location.city}, {basics?.location.region}
             </span>
             <footer>
                 <div class="print">
-                    {email} - {phone}
+                    {basics?.email} - {basics?.phone}
                 </div>
             </footer>
             <footer class="no-print">
                 <!-- TODO profiles icons -->
                 {
-                    email && (
-                        <a href={`mailto:${email}`} title="Send mail to:" target="_blank" rel="noopener noreferrer">
+                    basics?.email && (
+                        <a href={`mailto:${basics?.email}`} title="Send mail to:" target="_blank" rel="noopener noreferrer">
                             <Icon name="email-icon" />
                         </a>
                     )
                 }
                 {
-                    phone && (
-                        <a href={`tel:${phone}`} title="Call to:" target="_blank" rel="noopener noreferrer">
+                    basics?.phone && (
+                        <a href={`tel:${basics?.phone}`} title="Call to:" target="_blank" rel="noopener noreferrer">
                             <Icon name="phone-icon" />
                         </a>
                     )
                 }
                 {
-                    profiles.map(profile => (
+                    basics?.profiles.map(profile => (
                         <a href={profile.url} title={profile.username} target="_blank" rel="noopener noreferrer">
                             <Icon name=`${profile.network}-icon` />
                         </a>
@@ -47,7 +49,7 @@ const {city, region} = location;
 
         </div>
         <figure>
-            <img src={image} alt={name}>
+            <img src={basics?.image} alt={basics?.name}>
         </figure>
     </div>
 </Section>

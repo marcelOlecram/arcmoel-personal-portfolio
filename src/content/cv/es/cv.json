@@ -1,0 +1,272 @@
+{
+    "basics": {
+        "name": "Marcelo Max Acosta Archondo",
+        "label": "Desarrollador Backend, Programador de Gameplay",
+        "image": "/arcmoel-personal-portfolio/personal-pic-min.webp",
+        "email": "marcelo.acosta1994@gmail.com",
+        "phone": "(+591) 73268521",
+        "url": "https://arcmoel.com",
+        "summary": "Tengo más de 5 años de extensiva experiencia como desarrollador .NET junto manejo de bases de datos SQL Server e Informix. Adicionalemente, tengo experiencia con el uso de Apache Kafka para la comunicación entre microservicios a traves de su sistema de eventos, uso de Elastic Search para proveer soporte tecnico, Amazon Web Services para enriquecer los flujos de trabajo. Aunque estoy mas enfocado al desarrollo en Backend, tengo mucho interes en el area de programación grafica, como algoritmos de generación procedurales. Estoy ansioso de unirme a equipos de desarrollo para seguir aprendiendo en diversas areas.",
+        "location": {
+            "address": "266 Calle Saavedra",
+            "postalCode": "00000",
+            "city": "La Paz",
+            "countryCode": "BO",
+            "region": "Bolivia"
+        },
+        "profiles": [
+            {
+                "network": "LinkedIn",
+                "username": "marcelo-acosta",
+                "url": "https://www.linkedin.com/in/marcelo-acosta/"
+            },
+            {
+                "network": "GitHub",
+                "username": "marcelOlecram",
+                "url": "https://github.com/marcelOlecram"
+            }
+        ]
+    },
+    "work": [
+        {
+            "name": "VIRIDIAN Business Ltd.",
+            "position": "Desarrollador Backend",
+            "url": "https://www.viridian.cc/",
+            "startDate": "2018-08-01",
+            "endDate": null,
+            "summary": "Viridian es una compañia de software enfocada en el desarrollo de sistemas bancarios para los usuarios destino de entidades financieras. Inicie trabajando en el desarrollo de interfacez restAPI sencillos, a medida que el proyecto creció y se deplego en producción me hize cargo con algunos procesos del banco que abarcan desde Transferencias Bancarias, Transferencias QR, Pago de nomina y proveedores y procesos de Afiliación de nuevos clientes, desde las etapas de planificacion y diseño hasta la implementación de estas",
+            "highlights": [
+                "Net Core framework",
+                "Entity Framework",
+                "Amazon S3 storage services",
+                "Amazon Rekognition Services",
+                "Thirdparty Facial recognition services (facephi)",
+                "Apache Kafka messaging",
+                "SQL Server and Informix databases",
+                "Jenkins",
+                "Java Spring",
+                "Attlasian Tools such as Confluence and Jira",
+                "Elasticsearch"
+            ]
+        },
+        {
+            "name": "Ancestral Gods: Save the children",
+            "position": "Consultor en Desarrollo de Videojuegos",
+            "url": null,
+            "startDate": "2020",
+            "endDate": "2021",
+            "summary": "\"Save the children\" es un pequeño juego educacional para plataformas mobiles desarrollado para niños, para la ONG \"Save the Childen\". El juego se enfocaba en la enseñanza de los derechos de la niñez a travez de varios minijuegos. Me uni al desarrollo en medio proyecto y fue asignado con el desarrollo de mecanicas de juego y flujos en la interfaz de usuario hasta el desarrollo de minijuegos enteros",
+            "highlights": [
+                "Unity's Event system",
+                "Unity's Input system",
+                "Unity's Monobehaviour workflows",
+                "Mobile devices features like accelerometer and microphone"
+            ]
+        },
+        {
+            "name": "HCTR - High Control Games: El guardian",
+            "position": "Programador de mecanicas de videojuegos",
+            "url": null,
+            "startDate": "2018",
+            "endDate": "2018",
+            "summary": "\"El Guardian\" es un pequeño juego interactivo VR para dispositivos mobiles Samsung Gear VR, para el \"Ministerio of Medio Ambiente y Agua\" Presentado en la \"22º Feria del Libro\" en La Paz, Bolivia. Trabaje en el desarrollo de mecanicas como el manejo del input del usuario a travez del equipo VR",
+            "highlights": [
+                "Unity's Event system",
+                "Unity's Input system",
+                "Unity's Monobehaviour workflows",
+                "Mobile devices features like accelerometer and microphone"
+            ]
+        },
+        {
+            "name": "HCTR - High Control Games: Jukucuentos",
+            "position": "Programador de mecanicas de videojuegos",
+            "url": null,
+            "startDate": "2017",
+            "endDate": "2017",
+            "summary": "\"Jukucuentos\" es un juego para dispositivos mobiles diseñado para enseñar la lengua Aymara a niños. Trabaje en la integracion de libreria de terceros para el reconocimiento de texto offline con mecanicas dentro del juego para realizar acciones en el juego como el movimiento del jugador",
+            "highlights": [
+                "Unity's Event system",
+                "Unity's Input system",
+                "Unity's Monobehaviour workflows",
+                "Mobile devices features like accelerometer and microphone"
+            ]
+        },
+        {
+            "name": "HCTR - High Control Games: Locked",
+            "position": "Programador de mecanicas de videojuegos",
+            "url": null,
+            "startDate": "2016",
+            "endDate": "2016",
+            "summary": "Locked es un juego de terror VR interactivo inspirado en \"escape rooms\" usando el dispositivo HTC Vive. El juego fue presentado para eventos de Halloween. Trabaje en el desarrollo de mecanicas enfocado principalmente en la interactividad con objetos a travez de los controles del equipo HTC Vive",
+            "highlights": [
+                "Unity's Event system",
+                "Unity's Input system",
+                "Unity's Monobehaviour workflows",
+                "HTC Vive VR headset API with unity"
+            ]
+        },
+        {
+            "name": "UMSA - Universidad Mayor de San Andrés",
+            "position": "Asistente de Materia",
+            "url": null,
+            "startDate": "2015",
+            "endDate": "2017",
+            "summary": "Trabaje como asistente de las materias Teoria de la información y Programación Orientada a Objetos.",
+            "highlights": []
+        }
+    ],
+    "volunteer": [],
+    "education": [
+        {
+            "institution": "UMSA - Universidad Mayor de San Andrés",
+            "url": "https://www.umsa.bo/",
+            "area": "Ingeniería de Software",
+            "studyType": "Bachiller en Ingenieria de Software",
+            "startDate": "2012",
+            "endDate": "2017",
+            "score": null,
+            "courses": []
+        },
+        {
+            "institution": "University de Colorado, Colorado Springs",
+            "url": "https://institution.com/",
+            "area": "Coursera - Iniciando desarrollo de juegos con C#",
+            "studyType": "MOOC",
+            "startDate": "2015",
+            "endDate": "2015",
+            "score": null,
+            "courses": []
+        },
+        {
+            "institution": "Unidad Educativa Santa Ana II",
+            "url": null,
+            "area": "Secundaria",
+            "studyType": "Bachiller",
+            "startDate": "2000",
+            "endDate": "2011",
+            "score": null,
+            "courses": []
+        }
+    ],
+    "awards": [
+        {
+            "title": "Premio",
+            "date": "2014-11-01",
+            "awarder": "Compañia",
+            "summary": "There is no spoon."
+        }
+    ],
+    "certificates": [
+        {
+            "name": "Certificate",
+            "date": "2021-11-07",
+            "issuer": "Company",
+            "url": "https://certificate.com"
+        }
+    ],
+    "publications": [
+        {
+            "name": "Publication",
+            "publisher": "Company",
+            "releaseDate": "2014-10-01",
+            "url": "https://publication.com",
+            "summary": "Description…"
+        }
+    ],
+    "skills": [
+        {
+            "name": "Desarrollo Backend",
+            "level": "Mid",
+            "keywords": [
+                "C#",
+                ".Net framework",
+                "Entity Framework",
+                "Git",
+                "Amazon S3 services",
+                "Amazon Rekognition services",
+                "Apache Kafka",
+                "Elastic Search",
+                "JavaScript",
+                "Java",
+                "Spring"
+            ]
+        },
+        {
+            "name": "Bases de datos",
+            "level": "Mid",
+            "keywords": [
+                "SQL Server",
+                "Informix",
+                "MySql"
+            ]
+        },
+        {
+            "name": "Desarrollo de juegos",
+            "level": "Mid",
+            "keywords": [
+                "Unity game engine",
+                "C#",
+                "Blender",
+                "Krita"
+            ]
+        }
+    ],
+    "languages": [
+        {
+            "language": "Spanish",
+            "fluency": "Lengua Materna"
+        },
+        {
+            "language": "English",
+            "fluency": "Intermedio"
+        }
+    ],
+    "interests": [
+        {
+            "name": "Desarrollo de juegos",
+            "keywords": []
+        },
+        {
+            "name": "Dibujo y arte digital",
+            "keywords": []
+        }
+    ],
+    "references": [
+        {
+            "name": "Jane Doe",
+            "reference": "Reference…"
+        }
+    ],
+    "projects": [
+        {
+            "name": "Proyecto",
+            "startDate": "2019-01-01",
+            "endDate": "2021-01-01",
+            "description": "Descripcion...",
+            "highlights": [
+                "Proyecto Won award at AIHacks 2016"
+            ],
+            "url": "https://project.com/"
+        },
+        {
+            "name": "Proyecto",
+            "startDate": "2019-01-01",
+            "endDate": "2021-01-01",
+            "description": "Descripcion...",
+            "highlights": [
+                "Proyecto Won award at AIHacks 2016"
+            ],
+            "url": "https://project.com/"
+        },
+        {
+            "name": "Proyecto",
+            "startDate": "2019-01-01",
+            "endDate": "2021-01-01",
+            "description": "Descripcion...",
+            "highlights": [
+                "Proyecto Won award at AIHacks 2016"
+            ],
+            "url": "https://project.com/"
+        }
+    ]
+}

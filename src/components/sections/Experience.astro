@@ -1,11 +1,20 @@
 ---
-import {work} from "../../cv.json";
 import Section from "@/components/Section.astro";
+
+import { getCollection, getEntry } from 'astro:content';
+const cv = await getEntry('cv', `${Astro.currentLocale}/cv`);
+const work = cv?.data.work;
+
+interface Props {
+	title: string;
+}
+
+const { title } = Astro.props;
 ---
 
-<Section title="Experience">
+<Section title={title} >
     <ul>
-        {work.map(
+        {work?.map(
             ({name, position, url, startDate, endDate, summary, highlights}) => 
             {
                 const startYear = new Date(startDate).getFullYear();

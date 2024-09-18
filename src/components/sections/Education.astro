@@ -1,11 +1,20 @@
 ---
-import {education} from "../../cv.json";
 import Section from "@/components/Section.astro";
+
+import { getCollection, getEntry } from 'astro:content';
+const cv = await getEntry('cv', `${Astro.currentLocale}/cv`);
+const education = cv?.data.education;
+
+interface Props {
+	title: string;
+}
+
+const { title } = Astro.props;
 ---
 
-<Section title="Education">
+<Section title={title}>
     <ul>
-        {education.map(
+        {education?.map(
             ({institution, area, studyType, startDate, endDate}) => 
             {
                 const startYear = new Date(startDate).getFullYear();

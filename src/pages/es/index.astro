@@ -13,16 +13,17 @@ import { getCollection, getEntry } from 'astro:content';
 const cv = await getEntry('cv', `${Astro.currentLocale}/cv`);
 //const cv = await getCollection('cv', Astro.currentLocale);
 const basics = cv?.data.basics;
+
 ---
 
 <Layout title=`${basics?.name}'s Portfolio`>
 	<main>
 		<Hero	/>
-		<About title='About' />
-		<Experience title='Experience' />
-		<Education title='Education' />
-		<Projects title='Projects' />
-		<Skills	title='Skills' />
+		<About title='Acerca de mi' />
+		<Experience title='Experiencia' />
+		<Education title='Educación' />
+		<Projects title='Proyectos' />
+		<Skills	title='Habilidades' />
 	</main>
 	<!-- <KeyboardManager />-->
 </Layout>

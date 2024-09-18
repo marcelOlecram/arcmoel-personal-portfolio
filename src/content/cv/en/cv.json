@@ -1,0 +1,272 @@
+{
+    "basics": {
+        "name": "Marcelo Max Acosta Archondo",
+        "label": "Backend Developer, Gameplay programmer",
+        "image": "/arcmoel-personal-portfolio/personal-pic-min.webp",
+        "email": "marcelo.acosta1994@gmail.com",
+        "phone": "(+591) 73268521",
+        "url": "https://arcmoel.com",
+        "summary": "I have 5+ years of comprehensive experience as a .NET Developer coupled with expertise in handling Informix and SQLServer databases. Additionally, I have a background using Apache Kafka as a distributed event system to communicate between microservices, Elastic Search to provide support to our clients, Amazon Web Services to provide support in workflows. While focused mainly on backend development, I have an interest in graphics programming areas like procedural generation algorithms. I am enthusiastic to join new team environments and have an ongoing interest for self-directed learning in different areas.",
+        "location": {
+            "address": "266 Saavedra Street",
+            "postalCode": "00000",
+            "city": "La Paz",
+            "countryCode": "BO",
+            "region": "Bolivia"
+        },
+        "profiles": [
+            {
+                "network": "LinkedIn",
+                "username": "marcelo-acosta",
+                "url": "https://www.linkedin.com/in/marcelo-acosta/"
+            },
+            {
+                "network": "GitHub",
+                "username": "marcelOlecram",
+                "url": "https://github.com/marcelOlecram"
+            }
+        ]
+    },
+    "work": [
+        {
+            "name": "VIRIDIAN Business Ltd.",
+            "position": "Backend Developer",
+            "url": "https://www.viridian.cc/",
+            "startDate": "2018-08-01",
+            "endDate": null,
+            "summary": "Viridian is a software company focused on developing online banking systems aimed to bank's end users. I started working with basic CRUD restAPI interfaces, as the project grow and the solution finally deployed, i was tasked with some bank workflows suchs as bank transfers, QR transfers, batchpayemnts and onboarding processes from the early desgin to the actual implementation of those",
+            "highlights": [
+                "Net Core framework",
+                "Entity Framework",
+                "Amazon S3 storage services",
+                "Amazon Rekognition Services",
+                "Thirdparty Facial recognition services (facephi)",
+                "Apache Kafka messaging",
+                "SQL Server and Informix databases",
+                "Jenkins",
+                "Java Spring",
+                "Attlasian Tools such as Confluence and Jira",
+                "Elasticsearch"
+            ]
+        },
+        {
+            "name": "Ancestral Gods: Save the children",
+            "position": "Consultant Video Game Developer",
+            "url": null,
+            "startDate": "2020",
+            "endDate": "2021",
+            "summary": "\"Save the children\" is a small educational mobile videogame aimed to younger audiences developed for the \"Save the Childen ONG\". The game focused on teaching child rights through several minigames. I joined mid development and  was tasked from developing gameplay mechanics and UI workflows to some minigames",
+            "highlights": [
+                "Unity's Event system",
+                "Unity's Input system",
+                "Unity's Monobehaviour workflows",
+                "Mobile devices features like accelerometer and microphone"
+            ]
+        },
+        {
+            "name": "HCTR - High Control Games: El guardian",
+            "position": "Video game Mechanics Programmer",
+            "url": null,
+            "startDate": "2018",
+            "endDate": "2018",
+            "summary": "\"El Guardian\" is a small interactive VR mobile game developed for the Samsung Gear VR headset, for the \"Ministerio of Medio Ambiente y Agua\" Displayed at the \"22º Feria del Libro\" in La Paz, Bolivia. I worked on gameplay mechanics such as handling user input through the headset",
+            "highlights": [
+                "Unity's Event system",
+                "Unity's Input system",
+                "Unity's Monobehaviour workflows",
+                "Mobile devices features like accelerometer and microphone"
+            ]
+        },
+        {
+            "name": "HCTR - High Control Games: Jukucuentos",
+            "position": "Video game Mechanics Programmer",
+            "url": null,
+            "startDate": "2017",
+            "endDate": "2017",
+            "summary": "\"Jukucuentos\" is a mobile video game designed to teach children Aymara language, aimed to younger audiences. I worked on gameplay mechanics integrating a third party custom speech recognition library to recognize Aymara words to perform simple in game actions like player movement",
+            "highlights": [
+                "Unity's Event system",
+                "Unity's Input system",
+                "Unity's Monobehaviour workflows",
+                "Mobile devices features like accelerometer and microphone"
+            ]
+        },
+        {
+            "name": "HCTR - High Control Games: Locked",
+            "position": "Video game Mechanics Programmer",
+            "url": null,
+            "startDate": "2016",
+            "endDate": "2016",
+            "summary": "Locked is a small horror interactive VR experience inspired on escape rooms using HTC Vive headset. The game was displayed for Halloween events. I worked on gameplay mechanics mainly focusing on interacting with objects in game using the HTC as input",
+            "highlights": [
+                "Unity's Event system",
+                "Unity's Input system",
+                "Unity's Monobehaviour workflows",
+                "HTC Vive VR headset API with unity"
+            ]
+        },
+        {
+            "name": "UMSA - Higher Univerity of San Andrés",
+            "position": "Teaching Assistant",
+            "url": null,
+            "startDate": "2015",
+            "endDate": "2017",
+            "summary": "I worked as teaching assistant for the subjects of Information Theory and Object Oriented Programming.",
+            "highlights": []
+        }
+    ],
+    "volunteer": [],
+    "education": [
+        {
+            "institution": "UMSA - Higher University of San Andrés",
+            "url": "https://www.umsa.bo/",
+            "area": "Software Development",
+            "studyType": "Bachelor Science in Systems Engineering",
+            "startDate": "2012",
+            "endDate": "2017",
+            "score": null,
+            "courses": []
+        },
+        {
+            "institution": "University of Colorado, Colorado Springs",
+            "url": "https://institution.com/",
+            "area": "Coursera - Beggining Game Programming C#",
+            "studyType": "MOOC",
+            "startDate": "2015",
+            "endDate": "2015",
+            "score": null,
+            "courses": []
+        },
+        {
+            "institution": "Educational Unit Santa Ana II",
+            "url": null,
+            "area": "High School",
+            "studyType": "Bachelor",
+            "startDate": "2000",
+            "endDate": "2011",
+            "score": null,
+            "courses": []
+        }
+    ],
+    "awards": [
+        {
+            "title": "Award",
+            "date": "2014-11-01",
+            "awarder": "Company",
+            "summary": "There is no spoon."
+        }
+    ],
+    "certificates": [
+        {
+            "name": "Certificate",
+            "date": "2021-11-07",
+            "issuer": "Company",
+            "url": "https://certificate.com"
+        }
+    ],
+    "publications": [
+        {
+            "name": "Publication",
+            "publisher": "Company",
+            "releaseDate": "2014-10-01",
+            "url": "https://publication.com",
+            "summary": "Description…"
+        }
+    ],
+    "skills": [
+        {
+            "name": "Backend Development",
+            "level": "Mid",
+            "keywords": [
+                "C#",
+                ".Net framework",
+                "Entity Framework",
+                "Git",
+                "Amazon S3 services",
+                "Amazon Rekognition services",
+                "Apache Kafka",
+                "Elastic Search",
+                "JavaScript",
+                "Java",
+                "Spring"
+            ]
+        },
+        {
+            "name": "Databases",
+            "level": "Mid",
+            "keywords": [
+                "SQL Server",
+                "Informix",
+                "MySql"
+            ]
+        },
+        {
+            "name": "Game Development",
+            "level": "Mid",
+            "keywords": [
+                "Unity game engine",
+                "C#",
+                "Blender",
+                "Krita"
+            ]
+        }
+    ],
+    "languages": [
+        {
+            "language": "Spanish",
+            "fluency": "Native speaker"
+        },
+        {
+            "language": "English",
+            "fluency": "Intermediate speaker"
+        }
+    ],
+    "interests": [
+        {
+            "name": "Game Development",
+            "keywords": []
+        },
+        {
+            "name": "Drawing and Digital art",
+            "keywords": []
+        }
+    ],
+    "references": [
+        {
+            "name": "Jane Doe",
+            "reference": "Reference…"
+        }
+    ],
+    "projects": [
+        {
+            "name": "Project",
+            "startDate": "2019-01-01",
+            "endDate": "2021-01-01",
+            "description": "Description...",
+            "highlights": [
+                "Won award at AIHacks 2016"
+            ],
+            "url": "https://project.com/"
+        },
+        {
+            "name": "Project",
+            "startDate": "2019-01-01",
+            "endDate": "2021-01-01",
+            "description": "Description...",
+            "highlights": [
+                "Won award at AIHacks 2016"
+            ],
+            "url": "https://project.com/"
+        },
+        {
+            "name": "Project",
+            "startDate": "2019-01-01",
+            "endDate": "2021-01-01",
+            "description": "Description...",
+            "highlights": [
+                "Won award at AIHacks 2016"
+            ],
+            "url": "https://project.com/"
+        }
+    ]
+}

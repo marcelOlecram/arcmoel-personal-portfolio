@@ -1,9 +1,18 @@
 ---
-import {basics} from '../../cv.json';
 import Section from "@/components/Section.astro";
 
-const {summary} = basics;
+import { getCollection, getEntry } from 'astro:content';
+const cv = await getEntry('cv', `${Astro.currentLocale}/cv`);
+//const cv = await getCollection('cv', Astro.currentLocale);
+const basics = cv?.data.basics;
+
+interface Props {
+	title: string;
+}
+
+const { title } = Astro.props;
+
 ---
-<Section title="About">
-    <p>{summary}</p>
+<Section title={title}>
+    <p>{basics?.summary}</p>
 </Section>
