@@ -6,7 +6,7 @@
         "email": "marcelo.acosta1994@gmail.com",
         "phone": "(+591) 73268521",
         "url": "https://arcmoel.com",
-        "summary": "I have 5+ years of comprehensive experience as a .NET Developer coupled with expertise in handling Informix and SQLServer databases. Additionally, I have a background using Apache Kafka as a distributed event system to communicate between microservices, Elastic Search to provide support to our clients, Amazon Web Services to provide support in workflows. While focused mainly on backend development, I have an interest in graphics programming areas like procedural generation algorithms. I am enthusiastic to join new team environments and have an ongoing interest for self-directed learning in different areas.",
+        "summary": "I have 5+ years of comprehensive experience as a .NET Developer coupled with expertise in handling SQLServer, MySQL and Informix databases. Additionally, I have a background using Apache Kafka as a distributed event system to communicate between microservices, Elastic Search to provide support to our clients, Amazon Web Services to provide support in workflows. While focused mainly on backend development, I have an interest in graphics programming areas like procedural generation algorithms. I am enthusiastic to join new team environments and have an ongoing interest for self-directed learning in different areas.",
         "location": {
             "address": "266 Saavedra Street",
             "postalCode": "00000",
@@ -36,17 +36,14 @@
             "endDate": null,
             "summary": "Viridian is a software company focused on developing online banking systems aimed to bank's end users. I started working with basic CRUD restAPI interfaces, as the project grow and the solution finally deployed, i was tasked with some bank workflows suchs as bank transfers, QR transfers, batchpayemnts and onboarding processes from the early desgin to the actual implementation of those",
             "highlights": [
-                "Net Core framework",
-                "Entity Framework",
-                "Amazon S3 storage services",
-                "Amazon Rekognition Services",
-                "Thirdparty Facial recognition services (facephi)",
-                "Apache Kafka messaging",
-                "SQL Server and Informix databases",
-                "Jenkins",
-                "Java Spring",
-                "Attlasian Tools such as Confluence and Jira",
-                "Elasticsearch"
+                "Responsible of onboarding module which allows new clients to join the platform, which handled between 3000 and 5000 monthly new customers",
+                "In charge of batchpayments module which usually handle payroll payments from companies to employees",
+                "Optimized statistics data recollection for monthly reports",
+                "Developed in demand automatic reports for bank client's accounts and internal reports",
+                "Design and implemented procedures for \"in office\" terminals used by customers directly",
+                "Design and implemented procedures for mobile wallet app",
+                "Monitored and fixed critical bugs and issues",
+                "Developed our \"dummy\" bank for internal development purposes"
             ]
         },
         {
@@ -57,10 +54,7 @@
             "endDate": "2021",
             "summary": "\"Save the children\" is a small educational mobile videogame aimed to younger audiences developed for the \"Save the Childen ONG\". The game focused on teaching child rights through several minigames. I joined mid development and  was tasked from developing gameplay mechanics and UI workflows to some minigames",
             "highlights": [
-                "Unity's Event system",
-                "Unity's Input system",
-                "Unity's Monobehaviour workflows",
-                "Mobile devices features like accelerometer and microphone"
+                "Developed several minigames teaching child rights"
             ]
         },
         {
@@ -71,10 +65,7 @@
             "endDate": "2018",
             "summary": "\"El Guardian\" is a small interactive VR mobile game developed for the Samsung Gear VR headset, for the \"Ministerio of Medio Ambiente y Agua\" Displayed at the \"22º Feria del Libro\" in La Paz, Bolivia. I worked on gameplay mechanics such as handling user input through the headset",
             "highlights": [
-                "Unity's Event system",
-                "Unity's Input system",
-                "Unity's Monobehaviour workflows",
-                "Mobile devices features like accelerometer and microphone"
+                "Worked on input handling thorugh the headset's accelerometer"
             ]
         },
         {
@@ -85,10 +76,7 @@
             "endDate": "2017",
             "summary": "\"Jukucuentos\" is a mobile video game designed to teach children Aymara language, aimed to younger audiences. I worked on gameplay mechanics integrating a third party custom speech recognition library to recognize Aymara words to perform simple in game actions like player movement",
             "highlights": [
-                "Unity's Event system",
-                "Unity's Input system",
-                "Unity's Monobehaviour workflows",
-                "Mobile devices features like accelerometer and microphone"
+                "Developed in game mechanics to be used by speech recognition input"
             ]
         },
         {
@@ -99,10 +87,7 @@
             "endDate": "2016",
             "summary": "Locked is a small horror interactive VR experience inspired on escape rooms using HTC Vive headset. The game was displayed for Halloween events. I worked on gameplay mechanics mainly focusing on interacting with objects in game using the HTC as input",
             "highlights": [
-                "Unity's Event system",
-                "Unity's Input system",
-                "Unity's Monobehaviour workflows",
-                "HTC Vive VR headset API with unity"
+                "Worked on HTC vive's input handling for specific mechanics"
             ]
         },
         {
@@ -112,7 +97,10 @@
             "startDate": "2015",
             "endDate": "2017",
             "summary": "I worked as teaching assistant for the subjects of Information Theory and Object Oriented Programming.",
-            "highlights": []
+            "highlights": [
+                "Reviewed and graded assignments",
+                "Assisted on subject exams in the semester"
+            ]
         }
     ],
     "volunteer": [],
@@ -122,8 +110,8 @@
             "url": "https://www.umsa.bo/",
             "area": "Software Development",
             "studyType": "Bachelor Science in Systems Engineering",
-            "startDate": "2012",
-            "endDate": "2017",
+            "startDateX": "2012",
+            "endDateX": "2017",
             "score": null,
             "courses": []
         },
@@ -132,8 +120,8 @@
             "url": "https://institution.com/",
             "area": "Coursera - Beggining Game Programming C#",
             "studyType": "MOOC",
-            "startDate": "2015",
-            "endDate": "2015",
+            "startDateX": "2015",
+            "endDateX": "2015",
             "score": null,
             "courses": []
         },
@@ -142,8 +130,8 @@
             "url": null,
             "area": "High School",
             "studyType": "Bachelor",
-            "startDate": "2000",
-            "endDate": "2011",
+            "startDateX": "2000",
+            "endDateX": "2011",
             "score": null,
             "courses": []
         }
@@ -208,6 +196,19 @@
                 "C#",
                 "Blender",
                 "Krita"
+            ]
+        },
+        {
+            "name": "Work skills",
+            "level": "Mid",
+            "keywords": [
+                "Communication",
+                "Teamwork",
+                "Problem solving",
+                "Adaptability",
+                "Time management",
+                "Punctuality",
+                "Trusthworthiness"
             ]
         }
     ],

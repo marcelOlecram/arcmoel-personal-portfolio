@@ -7,12 +7,13 @@ const work = cv?.data.work;
 
 interface Props {
 	title: string;
+    highlight: string
 }
 
-const { title } = Astro.props;
+const { title, highlight } = Astro.props;
 ---
 
-<Section title={title} >
+<Section title={title} highlight={highlight} >
     <ul>
         {work?.map(
             ({name, position, url, startDate, endDate, summary, highlights}) => 
@@ -32,6 +33,16 @@ const { title } = Astro.props;
                         </header>
                         <footer>
                             <p>{summary}</p>
+                            <h4>{highlight}</h4>
+                            <ul class="highlights">
+                            {
+                                highlights?.map((item) => {
+                                    return (<li>{item}</li>)
+                                    
+                                    
+                                })
+                            }
+                            </ul>
                         </footer>
                     </article>                    
                 </li>)
@@ -50,14 +61,17 @@ const { title } = Astro.props;
     }
 
     article h3 {
-        font-weight: 500;
+        font-weight: 400;
         font-size: 1.5rem;
         color: #111;
     }
 
-    article h3 {
-        font-weight: 400;
+    article h4 {
+        font-weight: 600;
+        font-size: 1.2rem;
         color: #111;
+        margin-top: 0.2em;
+        margin-bottom: 0.2em;
     }
 
     header {
@@ -70,5 +84,13 @@ const { title } = Astro.props;
     time {
         font-size: 0.85rem;
         color: #555;
+    }
+
+    ul.highlights {
+        list-style: disc;
+        padding-left: 1.5em;
+        font-size: 0.8em;
+        gap: 0.4em;
+        color: #333333;
     }
 </style>

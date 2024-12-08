@@ -6,7 +6,7 @@
         "email": "marcelo.acosta1994@gmail.com",
         "phone": "(+591) 73268521",
         "url": "https://arcmoel.com",
-        "summary": "Tengo más de 5 años de extensiva experiencia como desarrollador .NET junto manejo de bases de datos SQL Server e Informix. Adicionalemente, tengo experiencia con el uso de Apache Kafka para la comunicación entre microservicios a traves de su sistema de eventos, uso de Elastic Search para proveer soporte tecnico, Amazon Web Services para enriquecer los flujos de trabajo. Aunque estoy mas enfocado al desarrollo en Backend, tengo mucho interes en el area de programación grafica, como algoritmos de generación procedurales. Estoy ansioso de unirme a equipos de desarrollo para seguir aprendiendo en diversas areas.",
+        "summary": "Tengo más de 5 años de extensiva experiencia como desarrollador .NET junto manejo de bases de datos SQL Server, MySQL e Informix. Adicionalemente, tengo experiencia con el uso de Apache Kafka para la comunicación entre microservicios a traves de su sistema de eventos, uso de Elastic Search para proveer soporte tecnico, Amazon Web Services para enriquecer los flujos de trabajo. Aunque estoy mas enfocado al desarrollo en Backend, tengo mucho interes en el area de programación grafica, como algoritmos de generación procedurales. Estoy ansioso de unirme a equipos de desarrollo para seguir aprendiendo en diversas areas.",
         "location": {
             "address": "266 Calle Saavedra",
             "postalCode": "00000",
@@ -36,17 +36,14 @@
             "endDate": null,
             "summary": "Viridian es una compañia de software enfocada en el desarrollo de sistemas bancarios para los usuarios destino de entidades financieras. Inicie trabajando en el desarrollo de interfacez restAPI sencillos, a medida que el proyecto creció y se deplego en producción me hize cargo con algunos procesos del banco que abarcan desde Transferencias Bancarias, Transferencias QR, Pago de nomina y proveedores y procesos de Afiliación de nuevos clientes, desde las etapas de planificacion y diseño hasta la implementación de estas",
             "highlights": [
-                "Net Core framework",
-                "Entity Framework",
-                "Amazon S3 storage services",
-                "Amazon Rekognition Services",
-                "Thirdparty Facial recognition services (facephi)",
-                "Apache Kafka messaging",
-                "SQL Server and Informix databases",
-                "Jenkins",
-                "Java Spring",
-                "Attlasian Tools such as Confluence and Jira",
-                "Elasticsearch"
+                "Responsable del modulo de afiliación, que permite registrar nuevos clientes a la plataforma, la cual maneja entre 3000 a 5000 nuevos clientes mensuales",
+                "A cargo del modulo de lotes de pago, usado principalmente para el pago salarial de compañias",
+                "Optmizado la obtención de información estadísticas para reportes mensuales",
+                "Desarrollado reportes en demanda automatizados tanto para cuentas bancarias de clientes como reportes internos",
+                "Diseñado e implementado procesos para terminales de uso en oficinas usados por clientes directamente",
+                "Diseñado e implementado procesos para la aplicación de billetera móvil",
+                "Monitoreado y arreglado errores en la plataforma",
+                "Desarrollado nuestro banco \"dummy\" para pruebas en fases de desarrollo"
             ]
         },
         {
@@ -57,10 +54,7 @@
             "endDate": "2021",
             "summary": "\"Save the children\" es un pequeño juego educacional para plataformas mobiles desarrollado para niños, para la ONG \"Save the Childen\". El juego se enfocaba en la enseñanza de los derechos de la niñez a travez de varios minijuegos. Me uni al desarrollo en medio proyecto y fue asignado con el desarrollo de mecanicas de juego y flujos en la interfaz de usuario hasta el desarrollo de minijuegos enteros",
             "highlights": [
-                "Unity's Event system",
-                "Unity's Input system",
-                "Unity's Monobehaviour workflows",
-                "Mobile devices features like accelerometer and microphone"
+                "Desarrollado varios minijuegos que enseñan los derechos de la niñez"
             ]
         },
         {
@@ -71,10 +65,7 @@
             "endDate": "2018",
             "summary": "\"El Guardian\" es un pequeño juego interactivo VR para dispositivos mobiles Samsung Gear VR, para el \"Ministerio of Medio Ambiente y Agua\" Presentado en la \"22º Feria del Libro\" en La Paz, Bolivia. Trabaje en el desarrollo de mecanicas como el manejo del input del usuario a travez del equipo VR",
             "highlights": [
-                "Unity's Event system",
-                "Unity's Input system",
-                "Unity's Monobehaviour workflows",
-                "Mobile devices features like accelerometer and microphone"
+                "Trabajado con el procesamiento de entrada a travez del acelerometro del dispositivo"
             ]
         },
         {
@@ -85,10 +76,7 @@
             "endDate": "2017",
             "summary": "\"Jukucuentos\" es un juego para dispositivos mobiles diseñado para enseñar la lengua Aymara a niños. Trabaje en la integracion de libreria de terceros para el reconocimiento de texto offline con mecanicas dentro del juego para realizar acciones en el juego como el movimiento del jugador",
             "highlights": [
-                "Unity's Event system",
-                "Unity's Input system",
-                "Unity's Monobehaviour workflows",
-                "Mobile devices features like accelerometer and microphone"
+                "Desarrollado mecanicas de juego para ser usadas a travez del reconocimiento de voz"
             ]
         },
         {
@@ -99,10 +87,7 @@
             "endDate": "2016",
             "summary": "Locked es un juego de terror VR interactivo inspirado en \"escape rooms\" usando el dispositivo HTC Vive. El juego fue presentado para eventos de Halloween. Trabaje en el desarrollo de mecanicas enfocado principalmente en la interactividad con objetos a travez de los controles del equipo HTC Vive",
             "highlights": [
-                "Unity's Event system",
-                "Unity's Input system",
-                "Unity's Monobehaviour workflows",
-                "HTC Vive VR headset API with unity"
+                "Trabajado con HTC Vive para mecanicas especificas dentro del proyecto"
             ]
         },
         {
@@ -112,7 +97,10 @@
             "startDate": "2015",
             "endDate": "2017",
             "summary": "Trabaje como asistente de las materias Teoria de la información y Programación Orientada a Objetos.",
-            "highlights": []
+            "highlights": [
+                "Revisado notas de alumnos",
+                "Asistido en examenes de materia en el semestre"
+            ]
         }
     ],
     "volunteer": [],
@@ -208,6 +196,19 @@
                 "C#",
                 "Blender",
                 "Krita"
+            ]
+        },
+        {
+            "name": "Habilidades de trabajo",
+            "level": "Mid",
+            "keywords": [
+                "Comunicación",
+                "Trabajo en equipo",
+                "Resolución de problemas",
+                "Adaptabilidad",
+                "Gestión de tiempo",
+                "Puntualidad",
+                "Confiabilidad"
             ]
         }
     ],

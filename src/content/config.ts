@@ -46,8 +46,8 @@ const cvCollection = defineCollection({
       url: z.string().nullable(),
       area: z.string(),
       studyType: z.string(),
-      startDate: z.string(),
-      endDate: z.string().nullable(),
+      startDate: z.string().optional(),
+      endDate: z.string().optional(),
       score: z.string().nullable(),
       courses: z.array(z.string())
     })),
